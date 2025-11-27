@@ -1,0 +1,26 @@
+{
+  "timestamp": 1764188802,
+  "episode": 288,
+  "checkpoint": "ppo_checkpoint_288_1764188802.pt",
+  "config": {
+    "LEARNING_RATE": 0.0003,
+    "GAMMA": 0.92,
+    "GAE_LAMBDA": 0.95,
+    "PPO_EPOCHS": 4,
+    "PPO_CLIP": 0.2,
+    "BATCH_SIZE": 64,
+    "ENTROPY_COEF": 0.01,
+    "MAX_GRAD_NORM": 0.5
+  },
+  "stats": {
+    "total_messages": 1352213,
+    "total_updates": 1352213,
+    "total_reward": -68932.07499841716,
+    "food_counts": [
+      411597,
+      496649,
+      443967
+    ]
+  },
+  "recent_avg_return": -61206.03699837844
+}

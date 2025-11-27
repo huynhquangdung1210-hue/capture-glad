@@ -1,0 +1,40 @@
+{
+  "timestamp": 1764200250,
+  "episode": 25,
+  "checkpoint": "ppo_checkpoint_25_1764200250.pt",
+  "config": {
+    "LEARNING_RATE": 0.0003,
+    "GAMMA": 0.98,
+    "GAE_LAMBDA": 0.95,
+    "PPO_EPOCHS": 4,
+    "PPO_CLIP": 0.2,
+    "BATCH_SIZE": 64,
+    "ENTROPY_COEF": 0.01,
+    "MAX_GRAD_NORM": 0.5
+  },
+  "stats": {
+    "total_messages": 58920,
+    "total_updates": 58920,
+    "total_reward": -21212.79999999132,
+    "food_counts": [
+      0,
+      58920,
+      0
+    ]
+  },
+  "recent_avg_return": -10875.878846156782,
+  "metrics": {
+    "policy_loss": 0.013879088743124157,
+    "value_loss": 0.12104462161660194,
+    "entropy": 18.64253215789795,
+    "approx_kl": 0.023489142209291457,
+    "mean_ratio": 1.0017232120037078,
+    "percent_clipped": 18.21546047925949,
+    "adv_mean": 1.3871626514116997e-08,
+    "adv_std": 0.9999999403953552,
+    "reward_mean": -0.012045454545454545,
+    "reward_std": 0.0352558535084824,
+    "return_mean": -1.2412467002868652,
+    "value_mean": -1.5964773893356323
+  }
+}
